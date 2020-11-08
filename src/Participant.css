@@ -1,0 +1,9 @@
+.participant {
+  display: flex;
+  align-items: flex-end;
+  margin: 15px 0;
+}
+
+.participant img {
+  margin: 0 5px;
+}
