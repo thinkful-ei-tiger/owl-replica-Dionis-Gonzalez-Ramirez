@@ -10,9 +10,11 @@ class Menu extends React.Component {
       <div className='menu'>
         <a href='https://www.google.com/'>Chat</a>
         <a href='https://www.google.com/'>Participants</a>
-        <a><img src={cog} /></a>
-        <a><img src={url} /></a>
-        <a><img src={question} /></a>
+        <div className='menu-options'>
+          <a href='#'><img src={cog} /></a>
+          <a href='#'><img src={url} /></a>
+          <a href='#'><img src={question} /></a>
+        </div>
       </div>
     )
   }

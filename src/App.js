@@ -1,21 +1,39 @@
 import React from 'react';
 import ParticipantList from './ParticipantList'
-import Menu from './Menu'
+import Stage from './Stage'
+import Footer from './Footer'
 import {participants} from './data';
 import './App.css'
 
 
-function App() {
-  return (
-    <main className='App'>
-      <Menu />
-      <ParticipantList participants={participants} />
+class App extends React.Component {
+  state = {status: ''}
 
-      {/* <Stage /> */}
-      {/* <Chat /> */}
+  toggleHidden = () => {
+    (this.state.status === '')
+    ? this.setState({status: 'hidden'})
+    : this.setState({status: ''})
+  }
 
-    </main>
-  );
+  render() {
+    return (
+      <>
+        <main className='App'>
+          <ParticipantList
+            state={this.state}
+            participants={participants}
+          />
+          <Stage participants={participants} />
+          
+          {/* <Stage /> */}
+          
+          {/* <Chat /> */}
+  
+        </main>
+        <Footer toggleHidden={this.toggleHidden} />
+      </>
+    )
+  }
 }
 
 export default App;

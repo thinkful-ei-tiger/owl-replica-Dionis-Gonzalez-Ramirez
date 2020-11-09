@@ -1,5 +1,6 @@
 import React from 'react';
 import './Participant.css'
+import online from './img/online.svg'
 
 class Participant extends React.Component {
   render() {
@@ -9,7 +10,13 @@ class Participant extends React.Component {
         <div className='participant-details'>
           <label><b>{this.props.participant.name}</b></label>
           <div className='participant-options'>
-            <label>on stage - </label>
+            {
+              (this.props.participant.onStage)
+              ? <>
+                  <img src={online} /><label>on stage - </label>
+                </>
+              : null
+            }
             <a href='https://www.google.com/'>Boot</a>
           </div>
         </div>

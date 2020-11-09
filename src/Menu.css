@@ -1,8 +1,26 @@
 .menu {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 5px 1px 0 5px;
+
+}
+
+.menu a {
   width: 30%;
+  text-align: center;
+}
+
+.menu a:link {
+  text-decoration: none;
+}
+
+.menu a:hover {
+  text-decoration: underline;
 }
 
 a img {
-  width: 16px;
-  height: 16px;
+  width: 20px;
+  height: 20px;
+  margin: 0 2px;
 }

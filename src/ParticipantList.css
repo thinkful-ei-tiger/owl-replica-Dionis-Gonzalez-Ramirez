@@ -1,5 +1,9 @@
 .participant-list {
   display: flex;
   flex-direction: column;
-  border: solid;
+  margin-top: 25px;
+}
+
+.sidebar {
+  width: 33%;
 }

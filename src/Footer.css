@@ -1,0 +1,33 @@
+.footer {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.chat-options, .footer-options {
+  display: flex;
+  align-items: center;
+  border: solid;
+}
+
+.chat-options a {
+  margin: 0 5px;
+}
+
+.footer-options a {
+  margin: 0 5px;
+}
+
+.footer-options button {
+  padding: 10px 40px;
+  margin: 10px 20px;
+  background-color: rgb(241, 45, 45);
+  color: white;
+  border-width: 1px;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+.footer-options button:hover {
+  background-color: red;
+}

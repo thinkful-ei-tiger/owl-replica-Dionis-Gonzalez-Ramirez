@@ -3,7 +3,7 @@ export const participants = [
       id: 1,
       name: 'Koren Templeton',
       avatar:
-          'https://robohash.org/itaquevoluptatumrerum?size=50x50&set=set1',
+          'https://robohash.org/itaquevoluptatumrerum?set=set1',
       inSession: true,
       onStage: true
   },
@@ -11,14 +11,14 @@ export const participants = [
       id: 2,
       name: 'Caty Flucker',
       avatar:
-          'https://robohash.org/doloredolorescupiditate.jpg?size=50x50&set=set1',
+          'https://robohash.org/doloredolorescupiditate.jpg?set=set1',
       inSession: true,
       onStage: false
   },
   {
       id: 3,
       name: 'Axe Kubicka',
-      avatar: 'https://robohash.org/utlaborumfugit.jpg?size=50x50&set=set1',
+      avatar: 'https://robohash.org/utlaborumfugit.jpg?set=set1',
       inSession: false,
       onStage: false
   },
@@ -26,7 +26,7 @@ export const participants = [
       id: 4,
       name: 'Frank Runciman',
       avatar:
-          'https://robohash.org/etexercitationemassumenda.jpg?size=50x50&set=set1',
+          'https://robohash.org/etexercitationemassumenda.jpg?set=set1',
       inSession: true,
       onStage: false
   },
@@ -34,7 +34,7 @@ export const participants = [
       id: 5,
       name: 'Ashla Attwool',
       avatar:
-          'https://robohash.org/iustodoloremqueinventore.jpg?size=50x50&set=set1',
+          'https://robohash.org/iustodoloremqueinventore.jpg?set=set1',
       inSession: true,
       onStage: true
   }
