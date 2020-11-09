@@ -7,7 +7,7 @@
 .chat-options, .footer-options {
   display: flex;
   align-items: center;
-  border: solid;
+  /* border: solid; */
 }
 
 .chat-options a {
@@ -20,7 +20,7 @@
 
 .footer-options button {
   padding: 10px 40px;
-  margin: 10px 20px;
+  margin: 15px 40px;
   background-color: rgb(241, 45, 45);
   color: white;
   border-width: 1px;
